@@ -20,7 +20,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation*/
 
 .navbar-dark {
-  background-image: linear-gradient(61deg, #004d6a, #007999);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #002540), color-stop(55%, #136f8e), color-stop(79%, #136f8e), color-stop(100%, #004666));
+  background: -webkit-linear-gradient(left, #002540 0%, #136f8e 55%, #136f8e 79%, #004666 100%);
+  background: linear-gradient(to right, #002540 0%, #136f8e 55%, #136f8e 79%, #004666 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002540', endColorstr='#004666', GradientType=1);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -37,7 +40,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-nav-collapse {
-  background-image: linear-gradient(61deg, #004d6a, #007999);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #002540), color-stop(55%, #136f8e), color-stop(79%, #136f8e), color-stop(100%, #004666));
+  background: -webkit-linear-gradient(left, #002540 0%, #136f8e 55%, #136f8e 79%, #004666 100%);
+  background: linear-gradient(to right, #002540 0%, #136f8e 55%, #136f8e 79%, #004666 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002540', endColorstr='#004666', GradientType=1);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
 }
 
