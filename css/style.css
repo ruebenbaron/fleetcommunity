@@ -95,8 +95,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 180px;
 }
 
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+  width: 60px;
+  height: 60px;
+}
+
 .carousel-caption {
-  bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .carousel-caption h1,h2,h3,h4,h5,h6 {
