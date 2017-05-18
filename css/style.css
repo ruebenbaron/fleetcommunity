@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.hm-dark-blue-light .mask {
+  background-color: rgba(0, 37, 64, 0.3)
+}
+
 .row {
   margin-top: 40px;
 }
