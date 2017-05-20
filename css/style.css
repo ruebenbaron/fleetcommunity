@@ -4,7 +4,7 @@ html,
 body,
 .view {
     height: 100%;
-    background-color: #f3f4f5;
+    background-color: #f3f4f5; /* light-grey */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
