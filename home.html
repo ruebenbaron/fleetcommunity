@@ -209,8 +209,8 @@
             <!--/ First Column -->
             <!-- Second Column -->
             <div class="col-md-6">
-              <!--Card-->
-              <div class="card wow fadeIn">
+              <!--Card Front -->
+              <div class="card wow fadeIn" id="qp_front">
 
                   <!--Card image-->
                   <div class="view">
@@ -244,14 +244,37 @@
                             <label for="radio4">... sich nicht durchsetzen.</label>
                         </fieldset>
                         <div class="text-center">
-                          <a class="btn btn-primary">Abstimmen</a>
+                          <a class="btn btn-primary" id="abstimmen" onclick="showResults()">Abstimmen</a>
                         </div>
                       </div>
                   </div>
                   <!--/.Card content-->
 
               </div>
-              <!--/.Card-->
+              <!--/.Card Front -->
+              <!--Card Back -->
+              <div class="card hide" id="qp_back">
+
+                  <!--Card image-->
+                  <div class="view">
+                      <img src="img/Question-Mark.jpg" class="img-fluid" alt="Question-Mark">
+                  </div>
+                  <!--/.Card image-->
+
+                  <!--Card content-->
+                  <div class="card-block text-center">
+                      <!--Title-->
+                      <h4 class="card-title">Vielen Dank für Ihre Teilnahme!</h4>
+                      <hr>
+                      <!--Text-->
+                      <div class="">
+                        <p class="card-text">Sie werden in Kürze über die Ergebnisse der Befragung informiert.</p>
+                      </div>
+                  </div>
+                  <!--/.Card content-->
+
+              </div>
+              <!--/.Card Back -->
             </div>
             <!--/ Second Column -->
           </div>
@@ -426,6 +449,9 @@
     <script>
         new WOW().init();
     </script>
+
+    <!-- Custom Script -->
+    <script type="text/javascript" src="js/home.js"></script>
 
 
 </body>
