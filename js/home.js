@@ -29,7 +29,8 @@ function showResults() {
   ]
 
   var option = {
-  responsive: true
+  responsive: true,
+  animationEasing: "easeOutQuart"
   };
 
   // Get the context of the canvas element we want to select
